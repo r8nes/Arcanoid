@@ -1,0 +1,83 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!181963792 &2655988077585873504
+Preset:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: BlockPreset
+  m_TargetType:
+    m_NativeTypeID: 114
+    m_ManagedTypePPtr: {fileID: 11500000, guid: 5298a0e470a3c9d4db6469cf425e6421, type: 3}
+    m_ManagedTypeFallback: 
+  m_Properties:
+  - target: {fileID: 0}
+    propertyPath: m_Enabled
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_EditorHideFlags
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_EditorClassIdentifier
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: Prefab
+    value: 
+    objectReference: {fileID: 4327082029817774072, guid: 5d188bba97c4e984daee761680ff860b, type: 3}
+  - target: {fileID: 0}
+    propertyPath: LayerSprites.Array.size
+    value: 3
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: LayerSprites.Array.data[0]
+    value: 
+    objectReference: {fileID: 21300000, guid: f6ee8ab9042d37b4db1e82d91c152e5e, type: 3}
+  - target: {fileID: 0}
+    propertyPath: LayerSprites.Array.data[1]
+    value: 
+    objectReference: {fileID: 21300000, guid: 7da2d5112d536584489e0fe60b4ef498, type: 3}
+  - target: {fileID: 0}
+    propertyPath: LayerSprites.Array.data[2]
+    value: 
+    objectReference: {fileID: 21300000, guid: 019b167ccc3ecca4cbce8418b1c4947f, type: 3}
+  - target: {fileID: 0}
+    propertyPath: BaseSprites.Array.size
+    value: 3
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: BaseSprites.Array.data[0]
+    value: 
+    objectReference: {fileID: 21300000, guid: 6c2fc2be737209945890b9f092eb9a69, type: 3}
+  - target: {fileID: 0}
+    propertyPath: BaseSprites.Array.data[1]
+    value: 
+    objectReference: {fileID: 21300000, guid: 98e786ae563d7b140ab777fcf6827867, type: 3}
+  - target: {fileID: 0}
+    propertyPath: BaseSprites.Array.data[2]
+    value: 
+    objectReference: {fileID: 21300000, guid: a7346838c4598ba47be6aeb191aae2f4, type: 3}
+  - target: {fileID: 0}
+    propertyPath: BaseColor.r
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: BaseColor.g
+    value: 0.5252168
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: BaseColor.b
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: BaseColor.a
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: Score
+    value: 25
+    objectReference: {fileID: 0}
+  m_ExcludedProperties: []
