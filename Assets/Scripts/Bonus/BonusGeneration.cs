@@ -34,7 +34,7 @@ public class BonusGeneration : MonoBehaviour
     }
 
     private void OnEnable()
-    {
+    { 
         Block.OnDestroyedPosition += BonusChance;    
     }
 
@@ -48,7 +48,7 @@ public class BonusGeneration : MonoBehaviour
         if (_gameState.State == State.Gameplay)
         {
             var chance = Random.Range(0, 100);
-            if (chance > 70)
+            if (chance > 80)
             {
                 Activate(position);
             }

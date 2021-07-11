@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class Bullet : MonoBehaviour
 {
-    private const float Speed = 10f;
+    private const float Speed = 25f;
     private void Update()
     {
         transform.Translate(Vector3.up * Speed * Time.deltaTime);
@@ -16,7 +16,6 @@ public class Bullet : MonoBehaviour
         {
             damagable.ApplyDamage();
         }
-
         gameObject.SetActive(false);
     }
 }

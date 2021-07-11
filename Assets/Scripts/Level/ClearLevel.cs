@@ -14,12 +14,30 @@ public class ClearLevel : MonoBehaviour
                 DestroyItem(item.gameObject);
             }
         }
+        BallMove[] balls = FindObjectsOfType<BallMove>();
+        if (balls.Length > 0)
+        {
+            foreach (var item in balls)
+            {
+                DestroyItem(item.gameObject);
+            }
+        }
+
         Bonus[] bonuses = FindObjectsOfType<Bonus>();
         if (bonuses.Length > 0)
         {
             foreach (var item in bonuses)
             {
-                DestroyItem(item.gameObject);
+                item.StopAndRemove();
+            }
+        }
+
+        Bullet[] bullets = FindObjectsOfType<Bullet>();
+        if (bonuses.Length > 0)
+        {
+            foreach (var item in bullets)
+            {
+                item.gameObject.SetActive(false);
             }
         }
     }
@@ -28,6 +46,7 @@ public class ClearLevel : MonoBehaviour
 #if UNITY_EDITOR
         DestroyImmediate(game.gameObject);
 #else
+
                 Destroy(game.gameObject);
 #endif
     }
