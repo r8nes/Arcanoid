@@ -1,5 +1,3 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 [RequireComponent(typeof(Rigidbody2D))]
@@ -44,6 +42,7 @@ public class PlayerMove : MonoBehaviour
 
     private void Move(float moveX) {
         _moveX = moveX;
+        Debug.Log(_moveX);
     }
 
     public void ResetPosition() 

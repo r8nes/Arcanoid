@@ -5,6 +5,9 @@ TagManager:
   serializedVersion: 2
   tags:
   - Block
+  - BulletsPool
+  - Left Button
+  - Right Button
   layers:
   - Default
   - TransparentFX
@@ -14,8 +17,8 @@ TagManager:
   - UI
   - Ball
   - Block
-  - 
-  - 
+  - Bullet
+  - Wall
   - 
   - 
   - 

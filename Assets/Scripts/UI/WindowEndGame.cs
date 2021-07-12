@@ -30,9 +30,4 @@ public class WindowEndGame : MonoBehaviour
         _scoreText.text = endGameData.Score.ToString();
         _recordText.text = endGameData.Record.ToString();
     }
-
-    private void OnDisable()
-    {
-        
-    }
 }
