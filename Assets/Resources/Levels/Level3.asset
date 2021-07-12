@@ -69,3 +69,9 @@ MonoBehaviour:
     Block: {fileID: 11400000, guid: 553bccf343db835408127878b382a8d2, type: 2}
   - Position: {x: -0.5, y: 5.25, z: 0}
     Block: {fileID: 11400000, guid: 553bccf343db835408127878b382a8d2, type: 2}
+  Bonuses:
+  - {fileID: 4737637332483139479, guid: 3588b84a83edd684a9379475e89e3665, type: 3}
+  - {fileID: 4737637332483139479, guid: 3588b84a83edd684a9379475e89e3665, type: 3}
+  - {fileID: 7213229658260174877, guid: 5218a4df9f3507444b5ae2cc211067d9, type: 3}
+  - {fileID: 7213229658260174877, guid: 5218a4df9f3507444b5ae2cc211067d9, type: 3}
+  BackGround: {fileID: 21300000, guid: 253f56c64da18584ab4c0b8d3fef2ffe, type: 3}

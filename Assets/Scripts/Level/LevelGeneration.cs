@@ -9,6 +9,8 @@ public class LevelGeneration : MonoBehaviour
     [SerializeField] private ClearLevel _clearLevel;
     [SerializeField] private GameState _gameState;
     [SerializeField] private UnityEvent OnGenerated;
+    [Space]
+    [SerializeField] private SpriteRenderer _background;
     private void Start()
     {
         _gameState.SetState(State.StopGame);
@@ -22,6 +24,7 @@ public class LevelGeneration : MonoBehaviour
         if (gameLevel != null)
         {
         _blocksGenerator.Generate(gameLevel, _parentBlocks);
+            _background.sprite = gameLevel.BackGround;
         }
         LoadingScreen.Screen.Enable(false);
         _gameState.SetState(State.Gameplay);

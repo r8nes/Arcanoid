@@ -2,6 +2,7 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Experimental.Rendering.Universal;
 using static UnityEngine.ParticleSystem;
 
 public class Block : BaseBlock, IDamagable 
@@ -30,6 +31,7 @@ public class Block : BaseBlock, IDamagable
     [SerializeField] private BoxCollider2D _blockCollider;
     [SerializeField] private BoxCollider2D _composite;
     [SerializeField] private ParticleSystem _particles;
+    [SerializeField] private Light2D _light; 
 
     public void SetData(ColoredBlock blockData) {
 
@@ -53,6 +55,7 @@ public class Block : BaseBlock, IDamagable
         _life--;
         if (_life < 1)
         {
+            _light.enabled = false;
             _spriteRenderer.enabled = false;
             _childSpriteRenderer.enabled = false;
             _blockCollider.enabled = false;

@@ -18,7 +18,7 @@ public class ObjectPool : MonoBehaviour
         GameObject temp;
         for (int i = 0; i < AmountToPool; i++)
         {
-            temp = Instantiate(_object);
+            temp = Instantiate(_object, transform);
             _object.SetActive(false);
             _objects.Add(temp);
         }

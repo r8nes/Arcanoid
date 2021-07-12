@@ -16,7 +16,18 @@ public class Weapon : Bonus
 
     private void OnEnable()
     {
-        //CreatePool();
+        if (_bulletPool == null)
+        {
+            ObjectPool[] objectPools = FindObjectsOfType<ObjectPool>();
+            for (int i = 0; i < objectPools.Length; i++)
+            {
+                if (objectPools[i].gameObject.CompareTag("BulletsPool"))
+                {
+                    _bulletPool = objectPools[i];
+                    break;
+                }
+            }
+        }
     }
 
     private IEnumerator StartShoot() 

@@ -13,26 +13,6 @@ MonoBehaviour:
   m_Name: Level8
   m_EditorClassIdentifier: 
   Blocks:
-  - Position: {x: 4.5, y: 9.25, z: 0}
-    Block: {fileID: 11400000, guid: 8e3c9514007e50c41941db163d3d6695, type: 2}
-  - Position: {x: 3.5, y: 9.25, z: 0}
-    Block: {fileID: 11400000, guid: 8e3c9514007e50c41941db163d3d6695, type: 2}
-  - Position: {x: 2.5, y: 9.25, z: 0}
-    Block: {fileID: 11400000, guid: 8e3c9514007e50c41941db163d3d6695, type: 2}
-  - Position: {x: 1.5, y: 9.25, z: 0}
-    Block: {fileID: 11400000, guid: 8e3c9514007e50c41941db163d3d6695, type: 2}
-  - Position: {x: 0.5, y: 9.25, z: 0}
-    Block: {fileID: 11400000, guid: 8e3c9514007e50c41941db163d3d6695, type: 2}
-  - Position: {x: -0.5, y: 9.25, z: 0}
-    Block: {fileID: 11400000, guid: 8e3c9514007e50c41941db163d3d6695, type: 2}
-  - Position: {x: -1.5, y: 9.25, z: 0}
-    Block: {fileID: 11400000, guid: 8e3c9514007e50c41941db163d3d6695, type: 2}
-  - Position: {x: -2.5, y: 9.25, z: 0}
-    Block: {fileID: 11400000, guid: 8e3c9514007e50c41941db163d3d6695, type: 2}
-  - Position: {x: -3.5, y: 9.25, z: 0}
-    Block: {fileID: 11400000, guid: 8e3c9514007e50c41941db163d3d6695, type: 2}
-  - Position: {x: -4.5, y: 9.25, z: 0}
-    Block: {fileID: 11400000, guid: 8e3c9514007e50c41941db163d3d6695, type: 2}
   - Position: {x: -4.5, y: 5.25, z: 0}
     Block: {fileID: 11400000, guid: 8e3c9514007e50c41941db163d3d6695, type: 2}
   - Position: {x: -3.5, y: 5.25, z: 0}
@@ -165,3 +145,4 @@ MonoBehaviour:
     Block: {fileID: 11400000, guid: 9af4c6244c146ba45be2e25fd1f29784, type: 2}
   - Position: {x: -0.5, y: 0.75, z: 0}
     Block: {fileID: 11400000, guid: 9af4c6244c146ba45be2e25fd1f29784, type: 2}
+  Bonuses: []

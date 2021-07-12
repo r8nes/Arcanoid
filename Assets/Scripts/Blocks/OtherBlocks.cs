@@ -5,7 +5,7 @@ using UnityEngine;
 public class OtherBlocks : BaseBlock
 {
 
-   [SerializeField ] private ParticleSystem _particle = null;
+   [SerializeField] private ParticleSystem _particle = null;
    
     private void Start()
     {

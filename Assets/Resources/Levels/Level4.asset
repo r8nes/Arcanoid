@@ -75,3 +75,9 @@ MonoBehaviour:
     Block: {fileID: 11400000, guid: ee8fe4df5e8f61842b03a32ffcbacf6d, type: 2}
   - Position: {x: -3.5, y: 4.75, z: 0}
     Block: {fileID: 11400000, guid: ee8fe4df5e8f61842b03a32ffcbacf6d, type: 2}
+  Bonuses:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  BackGround: {fileID: 0}
