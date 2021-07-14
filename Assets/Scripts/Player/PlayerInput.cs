@@ -10,7 +10,7 @@ public class PlayerInput : MonoBehaviour
 
     [SerializeField] private GameObject _leftButton;
     [SerializeField] private GameObject _rightButton;
-
+ 
     public static event Action<float> OnMove;
     public static event Action OnClicked;
 
@@ -19,6 +19,10 @@ public class PlayerInput : MonoBehaviour
     private void Update()
     {
 #if UNITY_EDITOR
+        if (gameObject.TryGetComponent(out TouchRace touchRace)) 
+        {
+            touchRace.enabled = false;
+        }
         OnMove?.Invoke(Input.GetAxisRaw("Horizontal"));
         if (Input.GetKeyDown(KeyCode.Space))
         {
@@ -26,9 +30,9 @@ public class PlayerInput : MonoBehaviour
         }
 #endif
 #if UNITY_ANDROID
-        //GetTouchInput();
-        //_leftButton.SetActive(true);
-        //_rightButton.SetActive(true);
+            GetTouchInput();  
+        _leftButton.SetActive(true);
+        _rightButton.SetActive(true);
 #endif
     }
 
